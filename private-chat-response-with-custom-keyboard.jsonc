@@ -1,0 +1,22 @@
+{
+    "chat_id": "12345678", // Replace this ID by the chat ID you are responding to
+    "text": "Please, choose an option:",
+    "parse_mode": "HTML",
+    "disable_notification": false,
+    "reply_markup": {
+        "keyboard": [
+            [
+                {
+                    "text": "Send location",
+                    "request_location": true
+                },
+                {
+                    "text": "Send contact",
+                    "request_contact": true
+                }
+            ]
+        ],
+        "one_time_keyboard": true
+    },
+    "reply_to_message_id": 1 // Message ID to respond to
+}
