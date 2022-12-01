@@ -1,0 +1,8 @@
+{
+    "file_id": "AAMCAgADGQEAAxFjhzzbWWvDl9795Wq2at3uymBITAACRiEAAghJOEgb5ENY0inMfAEAB20AAys0"
+}
+
+/*
+    After getting the file path you can download it using the following URL template:
+    https://api.telegram.org/file/bot<token>/<file_path>
+*/
